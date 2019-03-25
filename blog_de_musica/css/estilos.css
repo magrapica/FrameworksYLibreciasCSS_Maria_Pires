@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background: #9c9c9c;
+}
+
+ul {
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+.inicio-top .btn-inicio, .inicio-top a[rel=inicio], .grupos-top .btn-grupos, .grupos-top a[rel=grupos], .artistas-top .btn-artistas, .artistas-top a[rel=artistas], .top-top .btn-top, .top-top a[rel=top], .letras-top .btn-letras, .letras-top a[rel=letras], .acordes-top .btn-acordes, .acordes-top a[rel=acordes] {
+  background: #333;
+  color: #fff;
+}
+
+header {
+  border-radius: 0 0 4px 4px;
+  margin-bottom: 2vh;
+  overflow: hidden;
+}
+
+.redes-sociales {
+  margin: 21vh 0 0;
+  float: right;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.redes-sociales li {
+  float: left;
+}
+
+.redes-sociales li a {
+  font-size: 20px;
+  padding: 5px 10px;
+  color: #fff;
+}
+.redes-sociales li a:hover {
+  opacity: 0.8;
+}
+
+.redes-sociales .youtube {
+  background: #c4302b;
+}
+
+.redes-sociales .facebook{
+  background: #3b5998;
+}
+
+.redes-sociales .instagram {
+  background: #3f729b;
+}
+
+.redes-sociales .pinterest {
+  background: #c8232c;
+}
+
+.redes-sociales .twitter {
+  background: #0084b4;
+}
+
+nav {
+  background: #ddd;
+  overflow: hidden;
+  border-radius: 0 0 4px 4px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  text-align: center;
+  padding: 15px 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+nav li:hover {
+  background: #333;
+  
+}
+
+nav li:hover a {
+  color: #fff;
+}
+
+.bg-blanco {
+  background: #fff;
+  overflow: hidden;
+  display: block;
+}
+
+.border-4 {
+  border-radius: 4px;
+}
+
+.padding-interno {
+  padding: 20px 21px 20px 10px;
+}
+
+.comentario {
+  width: 100%;
+  margin: 3vh 0;
+  overflow: hidden;
+}
+
+.comentario .fas {
+  font-size: 40px;
+  float: left;
+}
+
+.comentario textarea {
+  float: left;
+  height: 60px;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.buscador {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.buscador button {
+  border: none;
+  background: none;
+}
+
+.buscador button:hover {
+  opacity: 0.8;
+}
+
+.buscador input {
+  background: none;
+  border: none;
+  padding-left: 5px;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.list-group-item {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.list-group-item:first-child {
+  border: none;
+}
+
+footer {
+  background: #ddd;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 4px 4px 0 0;
+  margin-top: 2vh;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+}
+
+.top-top #lista-top .list-group {
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.top-top #lista-top .list-group-item {
+  width: 47%;
+  float: left;
+  margin-right: 24px;
+  border: 1px solid #ddd;
+}
+
+.lista-letras {
+  width: 100%;
+  float: left;
+}
+
+.lista-letras .head {
+  text-align: center;
+  background: #1e405a;
+  color: #fff;
+}
+
+.lista-letras li {
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.lista-letras li a {
+  color: #333;
+}
+
+.lista-letras li:hover {
+  background: #1e405a;
+  color: #fff;
+}
+
+.lista-letras li:hover a {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .redes-sociales {
+    text-align: center;
+    float: none;
+    display: inline-block;
+    width: 100%;
+    margin-top: 3vh;
+  }
+  
+  .redes-sociales li {
+    display: inline-block;
+    float: none;
+    margin-left: -5px;
+  }
+  
+  .inicio-top .pull-left {
+    float: none !important;
+  }
+  
+  .inicio-top .pull-right {
+    float: none !important;
+  }
+  
+  .inicio-top figure {
+    text-align: center;
+  }
+  
+  .inicio-top figure img {
+    display: inline-block;
+  }
+  
+  .pl-0 {
+    padding-left: 20px !important;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .card img {
+    display: inline-block;
+  }
+  
+  .top-top #lista-top .list-group-item {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .top-top #lista-top .list-group-item img {
+    display: inline-block;
+  }
+  
+  .buscador {
+    clear: both;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .top-top #lista-top .list-group-item {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-device-width: 980px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .top-top #lista-top .list-group-item {
+    width: 46%;
+  }
+}

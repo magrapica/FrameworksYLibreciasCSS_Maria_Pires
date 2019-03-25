@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/paisaje.jpg) no-repeat #82add8;
+    background-size: cover;
+    background-position-y: 23vh;
+    font-size: 16px;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.slogan {
+    float: left;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: auto;
+    line-height: inherit;
+}
+
+nav {
+    background: none;
+    box-shadow: none;
+    margin-top: 20px;
+}
+
+#nav-mobile li a {
+    font-size: 14px;
+    padding: 5px 20px; 
+    margin-left: 5px;
+}
+
+#nav-mobile li a .fas {
+    font-size: 14px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.height {
+    height: 100% !important;
+}
+
+img {
+    margin-bottom: 5px;
+}
+
+.redes {
+    position: absolute;
+    left: 10vw;
+}
+
+.redes li a .fab {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.redes li a .fa-youtube {
+    font-size: 40px;
+}
+
+.card {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.card h5 {
+    margin-top: 0;
+}
+
+.card span.badge.new {
+    float: left;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+span.badge.new:after {
+    content: "";
+}
+
+.info-card {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-card img {
+    display: inline-block;
+}
+
+.info-card p {
+    margin-top: 10px;
+}
+
+hr {
+    border-top: 1px solid #d0d0d0;
+}
+
+.comentario {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.comentario h5 {
+    color: #fff;
+    margin-top: 0;
+}
+
+.comentario input, .comentario textarea {
+    color: #fff;
+    display: inline-block;
+    width: 80% !important;
+    padding-top: 0;
+}
+
+.comentario textarea {
+    width: 90% !important;
+    height: 100px;
+}
+
+.input-field {
+    margin-top: 0;
+}
+
+.comentario .fas {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    margin-top: 14px;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+form .btn {
+    color: #2196F3;
+    margin-right: 25px;
+}
+
+@media (max-width: 768px) {
+    .comentario {
+        margin-bottom: 15px;
+    }
+    
+    .comentario input, .comentario textarea {
+        width: 62% !important;
+    }
+    
+    .rs-inline {
+        text-align: center;
+    }
+    
+    img {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) {
+    .comentario textarea {
+        width: 88% !important;
+    }
+}
